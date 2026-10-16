@@ -1,0 +1,35 @@
+# CrowdWisdomTrading - X Sentiment Price Prediction Agent
+# Dependencies
+
+# Core Data Science & Time Series
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+lightgbm>=4.0.0
+
+# NLP & Sentiment Analysis
+vaderSentiment>=3.3.2
+
+# Market & Alternative Data Ingestion
+yfinance>=0.2.30
+apify-client>=1.6.0
+tavily-python>=0.3.0
+requests>=2.31.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Visualization & Reporting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+streamlit>=1.28.0
+reportlab>=4.0.0
+rich>=13.0.0
+
+# Testing
+pytest>=7.4.0
