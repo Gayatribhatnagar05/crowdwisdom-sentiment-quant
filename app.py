@@ -215,7 +215,7 @@ with tab3:
 
 with tab4:
     st.subheader("1-Page Sentiment Outlook Report")
-    outlook_path = config.PROJECT_ROOT / "CURRENT_SENTIMENT_OUTLOOK.md"
+    outlook_path = config.project_root / "CURRENT_SENTIMENT_OUTLOOK.md"
     if outlook_path.exists():
         with open(outlook_path, "r", encoding="utf-8") as f:
             st.markdown(f.read())
