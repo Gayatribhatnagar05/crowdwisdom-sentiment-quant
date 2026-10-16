@@ -94,7 +94,7 @@ DATABASE_PATH=data/crowdwisdom.db
 Clone the repository and install dependencies in Python 3.11+:
 
 ```bash
-git clone https://github.com/your-username/crowdwisdom-sentiment-quant.git
+git clone https://github.com/Gayatribhatnagar05/crowdwisdom-sentiment-quant.git
 cd crowdwisdom-sentiment-quant
 python -m pip install -r requirements.txt
 ```
@@ -206,12 +206,12 @@ Standard K-Fold cross validation suffers from autocorrelation leakage in financi
 
 ```
 To: gilad@crowdwisdomtrading.com
-Subject: CrowdWisdomTrading Quant Data Scientist Intern Assessment - [Your Name]
+Subject: CrowdWisdomTrading Quant Data Scientist Intern Assessment - Gayatri Bhatnagar
 
 Dear Gilad,
 
 Please find attached my completed Quantitative Data Scientist assessment:
-1. GitHub Repository: [Link to your GitHub / GitLab repository]
+1. GitHub Repository: https://github.com/Gayatribhatnagar05/crowdwisdom-sentiment-quant
 2. APIFY Actor ID: apidojo/tweet-scraper (Tokens & configs documented in .env.example)
 3. Tavily API: Integrates recent news headlines to complement X sentiment
 4. Evaluation Report: Attached as reports/EVALUATION_REPORT.pdf and EVALUATION_REPORT.md
@@ -222,5 +222,5 @@ engagement-weighted VADER sentiment, risk-adjusted metrics (Sharpe, Sortino, MDD
 and an interactive Streamlit visual matrix dashboard (`python -m streamlit run app.py`).
 
 Best regards,
-[Your Name]
+Gayatri Bhatnagar
 ```
