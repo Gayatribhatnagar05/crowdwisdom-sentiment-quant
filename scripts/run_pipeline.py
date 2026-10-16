@@ -184,7 +184,7 @@ def run_pipeline():
         f"- PDF Report: [cyan]{pdf_path}[/cyan]\n"
         f"- Markdown Report: [cyan]{config.project_root / 'EVALUATION_REPORT.md'}[/cyan]\n"
         f"- 1-Page Outlook: [cyan]{config.project_root / 'CURRENT_SENTIMENT_OUTLOOK.md'}[/cyan]\n"
-        f"- Interactive Dashboard: Run [yellow]streamlit run app.py[/yellow]",
+        f"- Interactive Dashboard: Run [yellow]python -m streamlit run app.py[/yellow]",
         title="Submission Ready",
         border_style="green"
     ))

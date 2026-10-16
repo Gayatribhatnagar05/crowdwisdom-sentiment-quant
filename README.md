@@ -124,7 +124,7 @@ This script will:
 
 ### 4. Launch Interactive Streamlit Dashboard
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 Explore the interactive visual matrix, toggle dual-axis sentiment overlays, test hypothetical sentiment shocks, and inspect multi-horizon forecast distributions.
 
@@ -219,7 +219,7 @@ Please find attached my completed Quantitative Data Scientist assessment:
 
 The pipeline features purged & embargoed walk-forward validation across horizons n+0 to n+5,
 engagement-weighted VADER sentiment, risk-adjusted metrics (Sharpe, Sortino, MDD),
-and an interactive Streamlit visual matrix dashboard (`streamlit run app.py`).
+and an interactive Streamlit visual matrix dashboard (`python -m streamlit run app.py`).
 
 Best regards,
 [Your Name]
